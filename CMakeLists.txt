@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.6)
+
+PROJECT(virtualPaint)
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
+link_directories(${OpenCV_LIBRARY_DIRS})
+add_definitions(${OpenCV_DEFINITIONS})
+
+SET( SRC  virtualPaint.cpp )
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${SRC})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${OpenCV_LIBS})

@@ -1,0 +1,3 @@
+/home/ambuj/vs_Code C++/opencv_project/Project_virtualPaint/build/CMakeFiles/rebuild_cache.dir
+/home/ambuj/vs_Code C++/opencv_project/Project_virtualPaint/build/CMakeFiles/virtualPaint.dir
+/home/ambuj/vs_Code C++/opencv_project/Project_virtualPaint/build/CMakeFiles/edit_cache.dir
